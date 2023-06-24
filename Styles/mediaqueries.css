@@ -1,0 +1,94 @@
+
+@media screen and (max-width: 1108px) {
+  .renglon_1_datos,
+  .renglon_2_datos,
+  .renglon_5_datos,
+  .renglon_4_datos,
+  .archivos {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .renglon_3_datos {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .Form_poli {
+    margin: 30px 300px 30px 60px;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .acordeon .contenedor.activa .contenido {
+    height: 150px;
+  }
+  .Form_poli {
+    margin: 30px 250px 30px 60px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+
+  .tyc label {
+    font-size: 13px;
+  }
+  
+  .tyc label a {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 624px) {
+  .btn-enviar {
+    justify-content: center;
+  }
+  .Form_poli {
+    margin: 30px 200px 30px 60px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .tyc label {
+    font-size: 12px;
+  }
+  
+  .tyc label a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 540px) {
+
+  .Form_poli {
+    margin: 30px 60px 30px 60px;
+  }
+  .bg-image-6 {
+    background: url("/Img/Fondos/Ladrillos.png");
+  }
+  .logo_Fin_Poli a img {
+    width: auto;
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .logo_Fin_Poli a img {
+    width: auto;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .logo_Fin_Poli a img {
+    width: auto;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 280px) {
+
+  .logo_Fin_Poli a img {
+    width: auto;
+    height: 36px;
+  }
+}
