@@ -243,6 +243,7 @@ body {
   outline: none;
   background: none;
   z-index: 1;
+  color: var(--green);
 }
 
 .estudiante_2 select {
