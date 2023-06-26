@@ -58,7 +58,7 @@
 
       <form action="https://formsubmit.co/55aff0fe3bd8ed3c7a4bf2ac4dfa6b54" class="form_aval" autocomplete="on" method="POST">
         <div class="estudiante">
-          <label for="lang">¿El titular del crédito es el estudiante?</label>
+          <label for="titular">¿El titular del crédito es el estudiante?</label>
           <select name="titular" id="titular" required>
             <option value="-"></option>
             <option value="si">Si</option>
@@ -80,15 +80,16 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="nombre"
                   required
                 />
-                <label for="" class="label">Nombre</label>
+                <label for="nombre" class="label">Nombre</label>
               </div>
 
               <div class="inputContainer">
-                <input name="No. Documento" class="input" placeholder="." maxlength="10" required />
+                <input name="No. Documento" class="input" placeholder="." maxlength="10" id="no_doc" required />
 
-                <label for="" class="label">No. Documento</label>
+                <label for="no_doc" class="label">No. Documento</label>
               </div>
 
               <div class="inputContainer">
@@ -98,9 +99,10 @@
                   class="input"
                   placeholder="."
                   maxlength="20"
+                  id="Fecha_expedicion"
                   required
                 />
-                <label for="" class="label">Fecha de Expedición</label>
+                <label for="Fecha_expedicion" class="label">Fecha de Expedición</label>
               </div>
 
               <div class="inputContainer">
@@ -110,9 +112,10 @@
                   class="input"
                   placeholder="."
                   maxlength="20"
+                  id="lugar_expedicion"
                   required
                 />
-                <label for="" class="label">Lugar de Expedición</label>
+                <label for="lugar_expedicion" class="label">Lugar de Expedición</label>
               </div>
             </div>
             <div class="renglon_2_datos">
@@ -123,20 +126,21 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="direccion"
                   required
                 />
-                <label for="" class="label">Dirección</label>
+                <label for="direccion" class="label">Dirección</label>
               </div>
 
               <div class="inputContainer">
                 <div class="estudiante_2">
-                  <select  class="input"name="Tipo de Vivienda" id="" required>
+                  <select  class="input"name="Tipo de Vivienda" id="t_vivienda" required>
                     <option value="" selected class="vacio"></option>
                     <option value="Propia">Propia</option>
                     <option value="Arriendo">Arriendo</option>
                     <option value="Familiar">Familiar</option>
                   </select>
-                  <label for="" class="label2">Tipo de Vivienda</label>
+                  <label for="t_vivienda" class="label2">Tipo de Vivienda</label>
                 </div>
               </div>
 
@@ -147,9 +151,10 @@
                   class="input"
                   placeholder="."
                   maxlength="20"
+                  id="ciudad"
                   required
                 />
-                <label for="" class="label">Ciudad</label>
+                <label for="ciudad" class="label">Ciudad</label>
               </div>
 
               <div class="inputContainer">
@@ -163,7 +168,7 @@
                     <option value="5">5</option>
                     <option value="6">6</option>
                   </select>
-                  <label for="" class="label2">Estrato</label>
+                  <label for="estratoSelect" class="label2">Estrato</label>
                 </div>
               </div>
             </div>
@@ -176,9 +181,10 @@
                   class="input"
                   placeholder="."
                   maxlength="50"
+                  id="e-mail"
                   required
                 />
-                <label for="" class="label">E-mail</label>
+                <label for="e-mail" class="label">E-mail</label>
               </div>
 
               <div class="inputContainer">
@@ -188,9 +194,10 @@
                   class="input"
                   placeholder="."
                   maxlength="10"
+                  id="telefono"
                   required
                 />
-                <label for="" class="label">Teléfono</label>
+                <label for="telefono" class="label">Teléfono</label>
               </div>
 
               <div class="inputContainer">
@@ -200,9 +207,10 @@
                   class="input"
                   placeholder="."
                   maxlength="10"
+                  id="celular"
                   required
                 />
-                <label for="" class="label">Celular</label>
+                <label for="celular" class="label">Celular</label>
               </div>
             </div>
           </div>
@@ -222,9 +230,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="empresa"
                   required
                 />
-                <label for="" class="label">Nombre Empresa</label>
+                <label for="empresa" class="label">Nombre Empresa</label>
               </div>
 
               <div class="inputContainer">
@@ -234,9 +243,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="cargo"
                   required
                 />
-                <label for="" class="label">Cargo</label>
+                <label for="cargo" class="label">Cargo</label>
               </div>
 
               <div class="inputContainer">
@@ -246,9 +256,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="direccion_empresa"
                   required
                 />
-                <label for="" class="label">Dirección Empresa</label>
+                <label for="direccion_empresa" class="label">Dirección Empresa</label>
               </div>
 
               <div class="inputContainer">
@@ -259,9 +270,10 @@
                   inputmode="numeric"
                   placeholder="."
                   maxlength="40"
+                  id="ingresos"
                   required
                 />
-                <label for="" class="label">Ingresos</label>
+                <label for="ingresos" class="label">Ingresos</label>
               </div>
             </div>
           </div>
@@ -281,9 +293,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="R1-Nombre"
                   required
                 />
-                <label for="" class="label">Nombre</label>
+                <label for="R1-Nombre" class="label">Nombre</label>
               </div>
 
               <div class="inputContainer">
@@ -293,9 +306,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="R1-Ciudad"
                   required
                 />
-                <label for="" class="label">Ciudad</label>
+                <label for="R1-Ciudad" class="label">Ciudad</label>
               </div>
               <div class="inputContainer">
                 <input
@@ -304,9 +318,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="R1-Telefono"
                   required
                 />
-                <label for="" class="label">Teléfono</label>
+                <label for="R1-Telefono" class="label">Teléfono</label>
               </div>
               <div class="inputContainer">
                 <input
@@ -315,9 +330,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="R1-Parentesco"
                   required
                 />
-                <label for="" class="label">Parentesco/Relación </label>
+                <label for="R1-Parentesco" class="label">Parentesco/Relación </label>
               </div>
             </div>
 
@@ -329,9 +345,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="ref2"
                   required
                 />
-                <label for="" class="label">Nombre</label>
+                <label for="R2-Nombre" class="label">Nombre</label>
               </div>
 
               <div class="inputContainer">
@@ -341,9 +358,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="R2-Ciudad"
                   required
                 />
-                <label for="" class="label">Ciudad</label>
+                <label for="R2-Ciudad" class="label">Ciudad</label>
               </div>
               <div class="inputContainer">
                 <input
@@ -352,9 +370,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="R2-Telefono"
                   required
                 />
-                <label for="" class="label">Teléfono</label>
+                <label for="R2-Telefono" class="label">Teléfono</label>
               </div>
               <div class="inputContainer">
                 <input
@@ -363,9 +382,10 @@
                   class="input"
                   placeholder="."
                   maxlength="40"
+                  id="R2-Parentesco"
                   required
                 />
-                <label for="" class="label">Parentesco/Relación </label>
+                <label for="R2-Parentesco" class="label">Parentesco/Relación </label>
               </div>
             </div>
           </div>
@@ -379,18 +399,18 @@
               <div class="renglon_4_datos">
                 <div class="inputContainer">
                   <div class="estudiante_2">
-                    <select  class="input"name="preposgrado" required>
+                    <select  class="input"name="preposgrado" id="preposgrado" required>
                       <option value="" selected class="vacio"></option>
                       <option value="Pregrado">Pregrado</option>
                       <option value="Posgrado">Posgrado</option>
                     </select>
-                    <label for="" class="label2">Nivel de Estudio</label>
+                    <label for="preposgrado" class="label2">Nivel de Estudio</label>
                   </div>
                 </div>
 
                 <div class="inputContainer">
                   <div class="estudiante_2">
-                    <select  class="input" name="Semestre" required>
+                    <select  class="input" name="Semestre" id="Semestre" required>
                       <option value="" selected class="vacio"></option>
                       <option value="1">1</option>
                       <option value="2">2</option>
@@ -403,7 +423,7 @@
                       <option value="9">9</option>
                       <option value="10">10</option>
                     </select>
-                    <label for="" class="label2">Semestre</label>
+                    <label for="Semestre" class="label2">Semestre</label>
                   </div>
                 </div>
 
@@ -415,9 +435,10 @@
                     class="input"
                     placeholder="."
                     maxlength="40"
+                    id="Programa"
                     required
                   />
-                  <label for="" class="label">Programa Académico</label>
+                  <label for="Programa" class="label">Programa Académico</label>
                 </div>
 
                 <div class="inputContainer">
@@ -428,9 +449,10 @@
                     inputmode="numeric"
                     placeholder="."
                     maxlength="3"
+                    id="Promedio"
                     required
                   />
-                  <label for="" class="label">Promedio</label>
+                  <label for="Promedio" class="label">Promedio</label>
                 </div>
 
                 <div class="inputContainer">
@@ -441,8 +463,9 @@
                     inputmode="numeric"
                     placeholder="."
                     maxlength="40"
+                    id="valor_Matricula"
                   />
-                  <label for="" class="label">Valor de matrícula</label>
+                  <label for="valor_Matricula" class="label">Valor de matrícula</label>
                 </div>
               </div>
             </div>
@@ -461,6 +484,7 @@
                 name="cedula-1"
                 accept="image/*"
                 class="inputfile inputfile-1"
+                id="file-1"
               />
               <label for="file-1">
                 <svg
@@ -484,9 +508,9 @@
                 name="cedula-2"
                 accept="image/*"
                 class="inputfile inputfile-1"
-                id="file-1"
+                id="file-2"
               />
-              <label for="file-1">
+              <label for="file-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="iborrainputfile"
@@ -511,9 +535,10 @@
               type="checkbox"
               name="TyC"
               value="first_checkbox"
+              id="tyc"
               required
             />
-            <label
+            <label for="tyc"
               >He leido y acepto los &nbsp<a href="#opentyc"
                 >términos y condiciones</a
               ></label
@@ -521,7 +546,7 @@
           </div>
           <div>
             <input name="TyD" type="checkbox" id="cbox1" value="first_checkbox" required />
-            <label
+            <label for="cbox1"
               >He leido y acepto la &nbsp<a href="#opendatos">
                 politica de tratamiento de datos</a
               >
