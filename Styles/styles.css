@@ -137,15 +137,18 @@ body {
 .datos {
   display: flex;
   justify-self: start;
+  
 }
 
 .datos h1 {
   font-size: 30px;
   color: var(--green);
+  margin-bottom: 10px;
 }
 
 .datos_personales {
   width: 100%;
+  margin: 5px 0;
 }
 
 .form_datos {

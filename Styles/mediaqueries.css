@@ -3,7 +3,7 @@
   .renglon_1_datos,
   .renglon_2_datos,
   .renglon_5_datos,
-  .renglon_4_datos,
+  .renglon_4_datos,.renglon_6_datos, .renglon_7_datos,
   .archivos {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
